@@ -1,4 +1,4 @@
-		/* 	Faça uma rotina recursiva para calcular a somatória de todos os número de 1 a N (N será lido do teclado).
+		/* 	FaÃ§a uma rotina recursiva para calcular a somatÃ³ria de todos os nÃºmero de 1 a N (N serÃ¡ lido do teclado).
 			som n = som(n-1) + n	*/
 		#include <iostream>
 		using namespace std;
@@ -18,5 +18,5 @@
 			int num;
 			cout << "Insira um valor: ";
 			cin >> num;
-			cout << "\nSomatória de  " << num << " = " << soma(num) << endl;
+			cout << "\nSomatÃ³ria de  " << num << " = " << soma(num) << endl;
 		}
