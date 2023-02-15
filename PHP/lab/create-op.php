@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-opc.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LBDB Index</title>
+    <title>LBDB Criar</title>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
@@ -12,19 +13,17 @@
 <body>
     <div class="container">
         <div class="box">
-            <div class="box-header">
-                LBDB CRUD
-            </div>
-            
-            <div class="box-content">
-                    <p><a href="create-op.php">Cadastrar</a></p>
-                    <br>
-                    <p><a href="read.php">Exibir & Modificar</a></p>
-            </div>
+            <a href="create-q.php">
+                <div class="op-q">
+                    <h1>Criar Questão</h1>
+                </div>
+            </a>
 
-            <div class="footer">
-                <p>Feito por Adrian Colombo, projeto semestral.</p>
-            </div>
+            <a href="create-a.php">
+                <div class="op-a">
+                    <h1>Criar Resposta</h1>
+                </div>
+            </a>
         </div>
     </div>
 </body>

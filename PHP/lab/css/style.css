@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +25,9 @@
     text-align: center;
     font-size: 50px;
     color: white;
-    margin-top: 80px;
+    margin-top: 6rem;
+    padding-bottom: 6rem;
+    border-bottom: 1px solid #000;
 }
 
 .icon {
@@ -42,13 +45,64 @@
 .box-content a {
     text-decoration: none;
     color: #fff;
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;
 }
 
 .box-content a:hover {
     border-bottom: 1px solid #faf9f7;
     padding: 0.25rem 2.5rem;  
     transition: all 200ms ease-in-out;
+}
+
+.box-content-crud {
+    text-align: center;
+    background-color: #323131;
+    color: #faf9f7;
+    width: 30rem;
+    padding-top: 1.6rem;
+}
+
+.box-content-crud label{
+    display:block;
+    color: #faf9f7;
+    margin-bottom: 0.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-content-crud-op label{
+    display: inline;
+    color: #faf9f7;
+    margin-bottom: 0.40rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-content-crud input[type=button], input[type=submit], input[type=reset] {
+    background-color: #faf9f7;
+    border: none;
+    color: black;
+    padding: 0.3rem 0.6rem;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.box-content-crud-dy{
+    font-family: Verdana;
+    font-size: 0.8rem;
+}
+
+.box-content-crud-dy button{
+    background-color: #323131FF;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.pos-button {
+    text-align: right;
 }
 
 .footer {
@@ -58,4 +112,30 @@
     margin-left: 0.9rem;
     color: #faf9f7;
     font-size: 0.55rem;
+}
+
+.show-read {
+    text-align: left;
+    padding: 0 2rem;
+    height: 21.58rem;
+    overflow-y: scroll;
+    
+}
+
+.show-data {
+    height: 21.58rem;
+    overflow-y: scroll;
+}
+
+.show-data::-webkit-scrollbar {
+    width: 0.5rem;               /* width of the entire scrollbar */
+  }
+  
+  .show-data::-webkit-scrollbar-thumb {
+    background-color: black;    /* color of the scroll thumb */
+  }
+
+
+.show-read hr{
+    margin:1rem 0;
 }
