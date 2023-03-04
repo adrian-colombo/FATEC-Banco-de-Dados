@@ -1,3 +1,12 @@
+drop table venda; 
+drop table tempo;
+drop table autor;
+drop table editora;
+drop table assunto;
+drop table faixa_idade;
+drop table livraria;
+drop table local;
+
 CREATE TABLE TEMPO (
     ID_TEMPO NUMBER(5) PRIMARY KEY,
     MES NUMERIC(2) NOT NULL,
